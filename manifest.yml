@@ -2,9 +2,9 @@ applications:
 - path: .
   memory: 128M
   instances: 1
-  domain: api.au-syd.bluemix.net
-  name: myFlask
-  host: myFlask
+  domain: au-syd.mybluemix.net
+  name: tutrial
+  host: tutrial
   disk_quota: 1024M
   services:
   - availability-monitoring-auto
