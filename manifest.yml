@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: api.ng.bluemix.net
+  name: myFlask
+  host: myFlask
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  buildpack: python_buildpack
